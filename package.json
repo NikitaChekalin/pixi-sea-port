@@ -1,0 +1,23 @@
+{
+  "name": "pixi-startproject",
+  "version": "1.0.0",
+  "description": "Dit is een startproject voor het werken met PixiJS, Typescript en OOP. Je kan deze repository downloaden en vervolgens installeren met:",
+  "scripts": {
+    "start": "parcel src/index.html --dist-dir docs",
+    "build": "parcel build src/index.html --dist-dir docs --public-url ./",
+    "prettier": "prettier -w ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pixi.js": "^6.3.0",
+    "rebuild": "^0.1.2"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0",
+    "prettier": "^3.2.5",
+    "querystring-es3": "^0.2.1",
+    "typescript": "^5.3.3"
+  }
+}

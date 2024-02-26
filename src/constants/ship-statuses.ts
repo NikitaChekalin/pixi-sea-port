@@ -1,0 +1,8 @@
+export enum ShipStatus {
+  WAITING = 'WAITING',
+  GOING = 'GOING',
+  DELIVERING = 'DELIVERING',
+  DELIVERED = 'DELIVERED',
+  PIKING_UP = 'PIKING_UP',
+  PICKED_UP = 'PICKED_UP'
+}
